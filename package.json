@@ -14,7 +14,7 @@
     "test": "ava",
     "build:api": "tsc index.ts",
     "build": "yarn build:front && yarn build:api",
-    "start": "node index.js"
+    "start": ""
   },
   "devDependencies": {
     "@types/node": "^22.13.4",
