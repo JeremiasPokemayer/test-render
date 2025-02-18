@@ -8,13 +8,10 @@
     "express": "^4.21.2"
   },
   "scripts": {
-    "dev:front": "parcel serve ./src/index.html",
-    "build:front": "parcel build ./src/index.html",
     "dev": "nodemon dev.ts",
     "test": "ava",
-    "build:api": "tsc index.ts",
-    "build": "yarn build:front && yarn build:api",
-    "start": ""
+    "build": "tsc index.ts",
+    "start": "node index.js"
   },
   "devDependencies": {
     "@types/node": "^22.13.4",
